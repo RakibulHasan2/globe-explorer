@@ -5,8 +5,6 @@ import Header from '../Header/Header';
 const Home = () => {
     return (
         <>
-            {/* navbar */}
-            <Header />
             {/* carousels */}
             <Carousels></Carousels>
             {/* about */}

@@ -5,6 +5,9 @@ import Home from './components/Home/Home';
 import './App.css';
 
 function App() { 
+
+  
+
   const router  = createBrowserRouter([
     {
       path: '/',
@@ -15,15 +18,23 @@ function App() {
           element: <Home></Home>
         },
         {
-          path: 'shop',
+          path: '/home',
+          element: <Home></Home>
+        },
+        {
+          path: '/about',
+          element: <h1>ABout page</h1>
+        },
+        {
+          path: '/shop',
           element: <div>shop</div>
         },
         {
-          path: 'packages',
+          path: '/packages',
           element: <div>packages</div>
         },
         {
-          path: 'login',
+          path: '/login',
           element: <div>Login</div>
         }
       ]
