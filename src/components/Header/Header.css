@@ -1,0 +1,33 @@
+/* style is for only home page */
+.header-custom-style-home {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* style is for only home page */
+.header-custom-style-home a {
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 19px;
+    color: black;
+}
+
+/* style for other pages */
+.header-custom-style {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    left: 0px;
+    top: 0px;
+}
+/* style for other pages */
+.header-custom-style a {
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 19px;
+    color: black;
+}
