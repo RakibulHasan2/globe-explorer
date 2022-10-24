@@ -24,10 +24,10 @@ const Carousels = () => {
             alt="First slide"
           />
           <Carousel.Caption className='heading-info'>
-            <h3>Never Stop</h3>
-            <h1>Exploring</h1>
+            <h3 className='text-left'>Never Stop</h3>
+            <h1 className='text-left color'>Exploring</h1>
             <p>Exploring Self is a blog about the journey toward authentic & holistic self love. It’s about seeking all of the joy, laughter and vibrancy that this world has to offer. Exploring Self is about learning to live freely, fully and without-fear. </p>
-            <Button>buy now</Button>
+            <button className='btn btn-lg bg-success text-white'>Get Started</button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -37,10 +37,12 @@ const Carousels = () => {
             alt="Second slide"
           />
 
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
+           <Carousel.Caption className='heading-second'>
+            <h3 className='text-left'>Make Tour</h3>
+            <h1 className='text-left color'>Amazing</h1>
+            <p>Exploring Self is a blog about the journey toward authentic & holistic self love. It’s about seeking all of the joy, laughter and vibrancy that this world has to offer. Exploring Self is about learning to live freely, fully and without-fear. </p>
+            <button className='btn btn-lg bg-success text-white'>Get Started</button>
+            </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -49,12 +51,12 @@ const Carousels = () => {
             alt="Third slide"
           />
 
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
+           <Carousel.Caption className='heading-info'>
+            <h3 className='text-left'>Never Stop</h3>
+            <h1 className='text-left color'>Exploring</h1>
+            <p>Exploring Self is a blog about the journey toward authentic & holistic self love. It’s about seeking all of the joy, laughter and vibrancy that this world has to offer. Exploring Self is about learning to live freely, fully and without-fear. </p>
+            <button className='btn btn-lg bg-success text-white'>Get Started</button>
+           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     </div>
