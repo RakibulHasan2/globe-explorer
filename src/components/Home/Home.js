@@ -2,6 +2,7 @@ import React from 'react';
 import AdventuresIdeas from '../AdventuresIdeas/AdventuresIdeas';
 import Carousels from '../Carousels/Carousels';
 import MemorableExperience from '../MemorableExperience/MemorableExperience';
+import Offer from '../WhatWeOffer/Offers/Offers';
 
 
 const Home = () => {
@@ -13,7 +14,8 @@ const Home = () => {
             <AdventuresIdeas></AdventuresIdeas>
             {/* memorable experience */}
             <MemorableExperience></MemorableExperience>
-            {/* about */}
+            {/* what we offer */}
+            <Offer></Offer>
             {/* blog */}
             {/* review */}
         </>

@@ -3,7 +3,7 @@ import './Idea.css'
 import { MdMoreHoriz } from 'react-icons/md';
 const Idea = ({idea}) => {
     const {name,details, img} = idea
-    console.log(idea.img)
+    // console.log(idea.img)
     return (
         <div>
             <img className='idea-img' src={img} alt="" />

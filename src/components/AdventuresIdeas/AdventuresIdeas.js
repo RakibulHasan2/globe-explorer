@@ -11,7 +11,7 @@ const AdventuresIdeas = () => {
         .then(data => setIdeas(data))
     } ,[])
 
-    console.log(ideas); 
+    // console.log(ideas); 
     return (
         <div >
             <h1 className='text-center mt-3 mb-5'>Adventures Idea!</h1>
