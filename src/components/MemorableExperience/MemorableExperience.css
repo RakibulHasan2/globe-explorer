@@ -1,0 +1,21 @@
+.content{
+    /* border: 1px solid red; */
+    width: 40%;
+}
+.experience-body img{
+    width: 40%;
+    height: 450px;
+    margin-right: 80px;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+    box-shadow: 30px 30px rgb(190, 190, 184);
+}
+.experience-body {
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 550px;
+    background-color: rgb(238, 235, 230);
+}
+.hover-btn:hover{
+    background-color: rgb(16, 57, 16);
+}
