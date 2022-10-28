@@ -15,7 +15,7 @@ const AdventuresIdeas = () => {
     return (
         <div >
             <h1 className='text-center mt-3 mb-5'>Adventures Idea!</h1>
-            <div className='d-flex container justify-content-center'>
+            <div className='d-flex container justify-content-center responsive-adventure'>
             {
                 ideas.map(idea => <Idea
                   key={idea.id}
