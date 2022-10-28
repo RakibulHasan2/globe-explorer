@@ -1,20 +1,32 @@
 import React, { useEffect,useState } from 'react';
+import Idea from '../Idea/Idea';
 import './AdventuresIdeas.css'
 const AdventuresIdeas = () => {
 
-   const [ideas, setIdeas]= useState();
+   const [ideas, setIdeas]= useState([]);
 
     useEffect(() => {
-         fetch('catagory.json')
+         fetch('https://globe-server.vercel.app/ideas')
         .then(res =>res.json())
         .then(data => setIdeas(data))
     } ,[])
 
     console.log(ideas); 
-        
     return (
-        <div>
-         {/* <h1>ideas {ideas.length}</h1> */}
+        <div >
+            <h1 className='text-center mt-3 mb-5'>Adventures Idea!</h1>
+            <div className='d-flex container justify-content-center'>
+            {
+                ideas.map(idea => <Idea
+                  key={idea.id}
+                   idea = {idea}
+                   ></Idea>)
+             }
+            </div>
+            <div>
+               <h1>sjdhajd</h1>
+            </div>
+      
         </div>
     );
 };

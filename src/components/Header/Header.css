@@ -7,6 +7,7 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    background-color: none;
 }
 /* style is for only home page */
 .header-custom-style-home a {
@@ -31,3 +32,16 @@
     font-size: 19px;
     color: black;
 }
+.icon{
+    margin-bottom: 15px;
+    color: rgb(23, 66, 23);
+}
+
+@media only screen and (max-width: 600px) {
+    .header-custom-style-home a {
+        font-size: 10px;
+        display: grid;
+    
+    }
+
+  }

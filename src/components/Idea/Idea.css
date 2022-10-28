@@ -1,0 +1,16 @@
+.idea-img{
+    margin-left: 13%;
+    margin-right: 3%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.idea-details{
+    width: 250px;
+    height: 130px;
+    text-align: center;
+}
+.see-more{
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
